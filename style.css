@@ -1,5 +1,5 @@
-.topbar.orange2 {
-    background-color: #fd602c;
+.topbar.orange {
+    background-color: #fd601c;
 }
 
 .navbar-brand {
@@ -23,28 +23,27 @@ img {
     float: left;
     width: 100%;
     padding: 10px;
-    margin: 0px;
 }
 
-.topbar-left-items {
+.topbar-l {
     float: left;
     margin: 0;
     padding: 0;
   
 }
-.topbar.orange2 .toplist li {
+.topbar.orange .toplist li {
     color: #fff;
 }
-.topbar-right-items li :hover{
+.topbar-r li :hover{
     color:black;
 }
 .lineright{
     text-decoration: none;
 }
-.topbar.orange2 .toplist li a:hover{
+.topbar.orange .toplist li a:hover{
     color:black;
 }
-.topbar.orange2 .toplist li a {
+.topbar.orange .toplist li a {
     text-decoration: none;
 }
 
@@ -59,35 +58,21 @@ img {
 ul {
     list-style-type: none;
 }
-.topbar-right-items {
+.topbar-r {
     float: left;
     margin: 0;
     padding: 0;
 
 }
-.pull-right {
-    float: right!important;
-}
-*, :after,  {
- 
-    box-sizing: border-box;
-}
-.toplist.toppadding {
-    padding-top: 10px;
-}
-.toplist {
+.pull {
     float: right;
-    padding: 0px;
-    margin: 0px;
-}
-ul {
-    list-style-type: none;
 }
 
-.topbar.orange2 .toplist li {
-    color: #fff;
+.toplist {
+    float: right;
 }
-.toplist li.lineright {
+
+.toplist li.line {
     border-right: 1px solid #e4e4e4;
 }
 .toplist li {
@@ -98,7 +83,7 @@ ul {
     margin: 0px;
     padding: 0 10px 0 10px;
 }
-.topbar.orange2 .toplist li a {
+.topbar.orange .toplist li a {
     color: #fff;
 }
 
@@ -106,34 +91,25 @@ ul {
 .toplist li a {
     color: #8d8c8c;
 }
-a {
-    outline: medium none !important;
-    color: #727272;
-}
-nav {
-    display: flex;
-    height: 90px;
-}
+
+
 .grid-header {
   
     width: 50%;
     float: left;
-    font-size: 30px;   
-    padding-left: 10px;
+    font-size: 32px;   
+    padding-left: 12px;
 }
 nav ul {
     height: 50px;
     width: 100%;
     list-style-type: none;
-    margin: 0px;
-    padding: 10px;
-    height: 50px;
+    height: 60px;
 }
 nav ul li {
     float: left;
     padding:20px 5px;
     font-size: 15px;
-    margin: 0px;
     cursor: pointer;
 }
 nav ul li:hover{
@@ -147,7 +123,6 @@ nav ul li:hover{
     height: 600px;
     width: 100%;
     overflow: hidden;
-    margin: 0 auto;
 }
 .slider-container{
     position: relative;
@@ -197,13 +172,10 @@ nav ul li:hover{
 .col-xs-12 {
     float: left;
 }
-.text-orange-2{
+.text-orange{
     color: #fd602c;
 }
-.nopadding {
-    padding: 0 !important;
-    margin: 0 !important;
-}
+
 .feature-box-101 {
     width: 100%;
     padding: 0px;
@@ -241,7 +213,7 @@ nav ul li:hover{
     border-radius: 100%;
     overflow: hidden;
 }
-.title-line-4.align-center {
+.title-line.align-center {
     width: 34px;
     height: 2px;
     float: none;
@@ -287,7 +259,7 @@ h6{
     z-index: 0;
     overflow: hidden;
 }
-.title-line-4.align-center {
+.title-line.align-center {
     width: 34px;
     height: 2px;
     float: none;
@@ -319,18 +291,18 @@ h6{
     padding-top:10px;
     padding-left: 25px;  
 }
-.title-line-4{
+.title-line{
     width:40px;
     border-bottom:3px solid black;
     margin-left: 25px;
     margin-bottom: 40px;
     margin-top: 20px;
 }
-.btn.btn-orange-2.dark {
+.btn.btn-orange.dark {
     color: #fff;
     background-color: #fd602c;
 }
-.btn.btn-orange-2 {
+.btn.btn-orange {
     color: #fff;
     background-color: #fd602c;
 }
@@ -514,7 +486,7 @@ h5 {
 .sec-padding {
     padding: 80px 0 80px 0;
 }
-.section-orange-2 {
+.section-orange{
     background-color: #fd602c;
 }
 
@@ -578,4 +550,194 @@ h5 {
     padding: 0px;
     margin: 0 auto;
     background: url(number4.png) center 0 no-repeat;
+}
+.blog-holder-13 {
+    float: left;
+    padding: 0;
+    position: relative;
+    width: 100%;
+    z-index: 0;
+}
+.blog-holder-13 .image-holder {
+    position: relative;
+}
+
+.image-holder {
+    width: 100%;
+    float: left;
+}
+.blog-holder-13 .image-holder .shapes {
+    position: absolute;
+    width: 250px;
+    height: 60px;
+    bottom: -30px;
+    left: 30px;
+    padding: 0;
+    background: url(../images/775.png) 0 0 no-repeat;
+}
+
+.blog-holder-13 .image-holder .post-date-box {
+    position: absolute;
+    width: 130px;
+    height: 150px;
+    bottom: 30px;
+    right: 30px;
+    font-size: 25px;
+    padding: 20px 0 0 0;
+}
+.post-date-box {
+    float: left;
+    color: #fff;
+    margin: 0;
+    z-index: 2;
+    text-align: center;
+    background-color: #fd602c;
+}
+h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    color: #272727;
+}
+.blog-post-info span {
+    font-size: 13px;
+    color: #b9b9b9;
+    margin-right: 15px;
+}
+p{
+    color: #7c7c7c; 
+}
+
+.parallax {
+    height:500px;
+    background: url(image-cover.jpg) 0;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+.sub-content {
+        float: none;
+        margin: 0 auto;
+}
+.sub-content .para-heading{
+  letter-spacing: 30px;
+  font-size: 16px;
+  line-height: 21px;
+  margin-bottom: 14px;
+  font-style: normal;
+  color: #fff;
+  text-align: center;
+  padding-top:120px;
+}
+.para-heading2{
+    font-size: 100px;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    line-height: 80px;
+}
+.para-btn{
+  position: relative;
+  left:46%;
+  color: #fff;
+  background-color: #fd602c;
+  padding:10px 20px;
+  top: 50px;
+  border-radius: 15px
+}
+.para-btn:hover{
+    background: #fff;
+    color:black;
+    text-decoration: none;
+}
+.pricetable-top-bg-strip {
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    float: left;
+    height: 25px;
+    background-color: #fff;
+}
+.pricetable-holder7 {
+    position: relative;
+    width: 100%;
+    padding: 15px 0 40px 0;
+    margin: 0px;
+    float: left;
+    text-align: center;
+    transition: all 0.3s ease-out 0s;
+    background-color: #f6f6f6;
+    border: 1px solid #e4e4e4;
+}
+.pricetable-holder7 .title-box {
+    width: 100%;
+    color: #242424;
+    float: left;
+    padding: 45px 0 15px 0;
+    vertical-align: middle;
+    border-bottom: 1px solid #e4e4e4;
+}
+.pricetable-holder7 .title-box .title {
+    color: #242424;
+}
+h3.less-mar2 {
+    margin-bottom: 5px;
+}
+.font-weight-5 {
+    font-weight: 500;
+}
+.pricetable-holder7 .price {
+    color: #242424;
+    font-size: 26px;
+    font-weight: bold;
+    line-height: 20px;
+    padding: 15px 0;
+    text-align: center;
+}
+.pricetable-holder7 .features-list {
+    width: 100%;
+    padding: 0;
+    margin: 0px;
+    float: left;
+}
+.pricetable-holder7 .features-list li {
+    width: 100%;
+    padding: 15px 0;
+    margin: 0px;
+    float: left;
+    color: #727272;
+    border-bottom: 1px solid #e4e4e4;
+}
+.pricetable-holder7.active {
+    background-color: #fd602c;
+    padding: 60px;
+    margin-top:0;
+    border: none;
+    
+}
+.pricetable-holder7 {
+    position: relative;
+    width: 100%;
+    padding: 15px 0 40px 0;
+    margin: 0px;
+    float: left;
+    text-align: center;
+
+}
+.pricetable-holder7 .ribbon {
+    height: 120px;
+    position: absolute;
+    right: -15px;
+    top: -40px;
+    width: 180px;
+}
+.btn.btn-white {
+    color: #242424;
+    background-color: #fff;
+}
+.btn.btn-xround {
+    border-radius: 20px;
+}
+.btn.btn-xround:hover{
+    background: black;
+    color:white;
 }
